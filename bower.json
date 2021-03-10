@@ -1,9 +1,9 @@
 {
   "name": "adapt-notifyOnComplete",
-  "version": "1.0.2",
-  "framework": "^2.0.0",
-  "homepage": "",
-  "issues": "",
+  "version": "1.0.3",
+  "framework": "^5.0.0",
+  "homepage": "https://github.com/danielstorey/adapt-notifyOnComplete",
+  "issues": "https://github.com/danielstorey/adapt-notifyOnComplete/issues",
   "displayName" : "Notify on Complete",
   "component" : "notifyOnComplete",
   "description": "Simply displays a message if the course is complete",
