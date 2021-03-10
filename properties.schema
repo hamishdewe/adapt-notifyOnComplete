@@ -28,7 +28,7 @@
                             "title": "Title",
                             "inputType": "Text",
                             "validators": [],
-                            "help": "The title for the notification popup,
+                            "help": "The title for the notification popup",
                             "default": "Course Complete"
                         },
                         "body": {
