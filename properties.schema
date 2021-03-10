@@ -19,7 +19,8 @@
                             "required":false,
                             "title": "Enable on Course",
                             "inputType": { "type": "Boolean", "options": [false, true]},
-                            "validators": []
+                            "validators": [],
+                            "default": true
                         },
                         "title": {
                             "type": "string",
@@ -27,7 +28,8 @@
                             "title": "Title",
                             "inputType": "Text",
                             "validators": [],
-                            "help": "The title for the notification popup"
+                            "help": "The title for the notification popup,
+                            "default": "Course Complete"
                         },
                         "body": {
                             "type": "string",
@@ -35,7 +37,8 @@
                             "title": "Body",
                             "inputType": "TextArea",
                             "validators": [],
-                            "help": "The body text for the notification popup"
+                            "help": "The body text for the notification popup",
+                            "default": "Congratulations! You've completed this course"
                         }
                     }
                 },
@@ -47,7 +50,8 @@
                             "required":false,
                             "title": "Enable on Page",
                             "inputType": { "type": "Boolean", "options": [false, true]},
-                            "validators": []
+                            "validators": [],
+                            "default": false
                         },
                         "title": {
                             "type": "string",
@@ -55,7 +59,8 @@
                             "title": "Text",
                             "inputType": "Text",
                             "validators": [],
-                            "help": "The title for the push notification"
+                            "help": "The title for the push notification",
+                            "default": "Page Complete"
                         },
                         "body": {
                             "type": "string",
@@ -63,7 +68,8 @@
                             "title": "Body",
                             "inputType": "TextArea",
                             "validators": [],
-                            "help": "The body text for the push notification"
+                            "help": "The body text for the push notification",
+                            "default": "You've completed this page."
                         }
                     }
                 },
